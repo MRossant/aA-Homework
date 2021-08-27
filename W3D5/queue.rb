@@ -1,21 +1,15 @@
-class Stack
-    
+class Queue
     attr_reader :array
-
+    
     def initialize
         @array = []
     end
 
-    def push(el)
+    def enqueue(el)
         @array.push(el)
     end
 
-    def pop
-        @array.pop
+    def dequeue
+        @array.shift
     end
-
-    def peek
-        @array.last
-    end
-
 end
