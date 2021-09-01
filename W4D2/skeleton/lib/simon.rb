@@ -33,7 +33,7 @@ class Simon
   end
 
   def require_sequence
-
+    
   end
 
   def add_random_color
@@ -41,11 +41,11 @@ class Simon
   end
 
   def round_success_message
-
+    puts "Success!"
   end
 
   def game_over_message
-
+    puts "You have lost the game"
   end
 
   def reset_game
